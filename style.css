@@ -1,1 +1,47 @@
 /* write your code here */
+html {
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQF4MV9wCcgmjgRdd1YqQeAd9yurW6DWfSclLS7rikt_65oshLi");
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.head {
+    text-align: center;
+    background-color: white;
+}
+
+.img {
+    width: 335px;
+    height: 235px;
+    margin: 0
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.content div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.801);
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+}
